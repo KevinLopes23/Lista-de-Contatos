@@ -1,0 +1,75 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-title {
+    color: #385555;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.lista_de_contatos {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 550px;
+    margin: auto;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.pessoa1 {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    border-bottom: rgb(207, 205, 205) solid 2px;
+    align-items: center;
+}
+
+.pessoa1_imagem img {
+    border-radius: 100%;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.pessoa1_informacoes p {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 0px;
+    color: gray;
+}
+.pessoa1_informacoes {
+    align-items: baseline;
+    margin-left: 15px;
+}
+
+.pessoa1_informacoes h2 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    color: rgb(16, 1, 71);
+}
+
+.opcoes {
+    padding-left: 100px;
+}
+
+.opcoes img {
+    padding-left: 10px;
+}
+
+.hidden-image {
+    display: none;
+}
+
+.pessoa1:hover .hidden-image {
+    display: inline;
+}
+
+.pessoa1:hover{
+    background-color: rgb(202, 200, 200);
+}
